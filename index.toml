@@ -95,6 +95,11 @@ hash = "5564dbbe8adc0ba450afc6a1c3eef82f183a53ede5f3b1de0bc6ca320aadc5e9"
 metafile = true
 
 [[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "5cccbe33e96d27254469cd51ebe3d39fd89c93bbcb78e5c57029b9529149d70a"
+metafile = true
+
+[[files]]
 file = "mods/mariums-soulslike-weaponry.pw.toml"
 hash = "8e3e81260ef8959aa97a1bb32f2cf83001782506da2e27f40e56124f6a5c9796"
 metafile = true
