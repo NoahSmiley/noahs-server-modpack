@@ -1,0 +1,51 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/attributefix.pw.toml"
+hash = "a773df76089453f964bf196aae2d9e963d28fa18dde4e1a6ce9260206e6f033a"
+metafile = true
+
+[[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "5f32244bbf7f4864d6570bde7f7223655f52d5df455e7b9fe650b10dee42f830"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "446c173c87b7908daee86b0dee89c6b628c77beb7a0bc091ff5252b7c0062080"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "446f8047ee9168b65fe9d4600f82cb915c7aa0d0f049a344177ba340a5b93a8a"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "43419651a1c8ee71281ce6d607fba199f0e87ba41f9725caa65b4dab2e589d49"
+metafile = true
+
+[[files]]
+file = "mods/mariums-soulslike-weaponry.pw.toml"
+hash = "8e3e81260ef8959aa97a1bb32f2cf83001782506da2e27f40e56124f6a5c9796"
+metafile = true
+
+[[files]]
+file = "mods/prickle.pw.toml"
+hash = "122659d423e8fe5c47b4121bf382e5ceea0ea2c644cd0a08d577cf58ef55d495"
+metafile = true
+
+[[files]]
+file = "mods/ranged-weapon-api.pw.toml"
+hash = "1169c6f5f7cd13d01081f996cda2a029809877aff999e9bf4e6b0d44b027aa58"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "272b27d64cd27b909567437683287909b35de9f78db27214efb1d5e4334f9f82"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "4ea85fa7d750bf5a167fe9652f2ac896d12ab068dacb8b04539e316ba5b74042"
+metafile = true

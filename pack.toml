@@ -1,0 +1,13 @@
+name = "Noahs-Server"
+author = "Noah"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "f5147423e4b1790b4270547f81b4f3b91f5b67d279fb64ec6f15ff5cb6697f1d"
+
+[versions]
+fabric = "0.18.1"
+minecraft = "1.21.1"
