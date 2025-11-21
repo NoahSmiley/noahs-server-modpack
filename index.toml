@@ -145,8 +145,13 @@ hash = "a8dbb5dfe3d0be23d628ae89c805c50de83db89e382c573e37695ec20f246de7"
 metafile = true
 
 [[files]]
-file = "mods/polymer.pw.toml"
-hash = "62df1cb449d5c6f8c5d670f14819a106a451e88102b8b066efeb73951f058d30"
+file = "mods/pneumono_core.pw.toml"
+hash = "9c7978a3af54d109b1ae4a035672024d178641df8c553126e405f381d814041a"
+metafile = true
+
+[[files]]
+file = "mods/pneumono_gravestones.pw.toml"
+hash = "3ca867b96ce71321b882606ed97d3c4af8bba5b4886dd71589f29c6e022b152c"
 metafile = true
 
 [[files]]
@@ -197,11 +202,6 @@ metafile = true
 [[files]]
 file = "mods/txnilib.pw.toml"
 hash = "7d47e3d8bee4711ab37491e5e91bad186b6606ba560ab8a1dec753c157cf1151"
-metafile = true
-
-[[files]]
-file = "mods/universal-graves.pw.toml"
-hash = "695176ca996e639044d0d526cd6c56a95c9897e85e7a8119a2d14a712f755733"
 metafile = true
 
 [[files]]
