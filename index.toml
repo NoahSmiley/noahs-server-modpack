@@ -1,6 +1,26 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/accessories.pw.toml"
+hash = "97befad2275e44c557794fbd321b154510279ce7906426607288062e096df86d"
+metafile = true
+
+[[files]]
+file = "mods/amendments.pw.toml"
+hash = "d4838d91cd7747816ade0f2f4a46c701a53c3ef84cb278ec24e8f6fb828a85c3"
+metafile = true
+
+[[files]]
+file = "mods/analog.pw.toml"
+hash = "a7f0850f3ae1c6e6f75126f67438af21d853a86b8b8d6c146cb61d47c6e824cf"
+metafile = true
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "1102440dd2533ba3a154419bb95ff1f81b858201eb0c44d2a2eea486c74e565a"
+metafile = true
+
+[[files]]
 file = "mods/attributefix.pw.toml"
 hash = "a773df76089453f964bf196aae2d9e963d28fa18dde4e1a6ce9260206e6f033a"
 metafile = true
@@ -16,8 +36,38 @@ hash = "446c173c87b7908daee86b0dee89c6b628c77beb7a0bc091ff5252b7c0062080"
 metafile = true
 
 [[files]]
+file = "mods/cosy-critters.pw.toml"
+hash = "452d8876c7868637e658a5ec99a6056706e50e468ca6238befc455d635f1dcfb"
+metafile = true
+
+[[files]]
+file = "mods/diagonal-fences.pw.toml"
+hash = "23b3bf6d1931acd2aa6daa5409b274b0d4ec9ec659c01d11454093d8fcd1e342"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "446f8047ee9168b65fe9d4600f82cb915c7aa0d0f049a344177ba340a5b93a8a"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "d7c055f277c1751122d9abc5f09015e629699e04a9383cd0c666b33436293079"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "9fb4d588bd578e2f16a9605ff6303872130b36ccb0fdfff98bd7274da94f91b9"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "238b3ceb4214a682480ce00eefae5d34efa299ff6ff667e4b2f2ed503c6e76ee"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "d8cdb69801ff0ffdf8c9cf6834dd592ca79ce1da139d303f8d17a62afec1abe2"
 metafile = true
 
 [[files]]
@@ -26,13 +76,68 @@ hash = "43419651a1c8ee71281ce6d607fba199f0e87ba41f9725caa65b4dab2e589d49"
 metafile = true
 
 [[files]]
+file = "mods/immersive-lanterns.pw.toml"
+hash = "67073e76c80987fe6193fdb50f4db0991467ba3fa265829a132ca878e5261c0a"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "5564dbbe8adc0ba450afc6a1c3eef82f183a53ede5f3b1de0bc6ca320aadc5e9"
+metafile = true
+
+[[files]]
 file = "mods/mariums-soulslike-weaponry.pw.toml"
 hash = "8e3e81260ef8959aa97a1bb32f2cf83001782506da2e27f40e56124f6a5c9796"
 metafile = true
 
 [[files]]
+file = "mods/modernfix.pw.toml"
+hash = "b9651d06e56ad51c1cdcf4b03b6a34328b7dc941f263ff92b189ee26a47cc224"
+metafile = true
+
+[[files]]
+file = "mods/moonlight.pw.toml"
+hash = "c04b43e6c95e18c7310c97e47b3e5bcf65c23180a899a85c97d9fa8f5f773c98"
+metafile = true
+
+[[files]]
+file = "mods/mru.pw.toml"
+hash = "230b1f5cd118accacf41f268e122bd420420d9e5248d43513090804739a832f3"
+metafile = true
+
+[[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "f53b91397b8a969e843af8772db448ab1c9bc556233a3b26266c52cfa77950fe"
+metafile = true
+
+[[files]]
+file = "mods/octo-lib.pw.toml"
+hash = "5e527159dd30ddd4c68c2d363b4e973ac60a65a260b41f5d7a8ac2ab94be3e30"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "60a3d23eb73106ecb6ba5a391d4539e3557cbd9b1f3611a2de08052155d78b3a"
+metafile = true
+
+[[files]]
+file = "mods/player-animation-library.pw.toml"
+hash = "a8dbb5dfe3d0be23d628ae89c805c50de83db89e382c573e37695ec20f246de7"
+metafile = true
+
+[[files]]
+file = "mods/polymorph.pw.toml"
+hash = "8a64fdd5384cd26c91475a423f3bec24dd4d98796df7683a5070ef105d421ba4"
+metafile = true
+
+[[files]]
 file = "mods/prickle.pw.toml"
 hash = "122659d423e8fe5c47b4121bf382e5ceea0ea2c644cd0a08d577cf58ef55d495"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "44a6662d6ac604b2173a8bc426a10c0d621c8ba99d37d1b72525c140c42cb358"
 metafile = true
 
 [[files]]
@@ -46,6 +151,21 @@ hash = "272b27d64cd27b909567437683287909b35de9f78db27214efb1d5e4334f9f82"
 metafile = true
 
 [[files]]
+file = "mods/sodium-dynamic-lights.pw.toml"
+hash = "6475037d680289b4cf8bca4e375b3ecb9c9d6d90dd785b9bd085a42b9c84b795"
+metafile = true
+
+[[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "4ea85fa7d750bf5a167fe9652f2ac896d12ab068dacb8b04539e316ba5b74042"
+metafile = true
+
+[[files]]
+file = "mods/txnilib.pw.toml"
+hash = "7d47e3d8bee4711ab37491e5e91bad186b6606ba560ab8a1dec753c157cf1151"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "8ffa4ba1466882a5abef6c6d220824f1ce4e228771f854f19e4fceb80598723c"
 metafile = true
