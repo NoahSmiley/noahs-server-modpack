@@ -50,6 +50,11 @@ hash = "446c173c87b7908daee86b0dee89c6b628c77beb7a0bc091ff5252b7c0062080"
 metafile = true
 
 [[files]]
+file = "mods/continents.pw.toml"
+hash = "1d2d4cdfb2ff8f6b9894d63bdced20e1ad3673a753cad8bf5fe0c60d6acd5a27"
+metafile = true
+
+[[files]]
 file = "mods/cosy-critters.pw.toml"
 hash = "452d8876c7868637e658a5ec99a6056706e50e468ca6238befc455d635f1dcfb"
 metafile = true
