@@ -4,6 +4,8 @@ on:
   push:
     tags:
       - 'v*'
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       version:
@@ -39,8 +41,11 @@ jobs:
             echo "EOF" >> $GITHUB_OUTPUT
           else
             VERSION=${GITHUB_REF#refs/tags/v}
+            if [ -z "$VERSION" ] || [ "$VERSION" == "$GITHUB_REF" ]; then
+              # Not a tag push, use version from pack.toml
+              VERSION=$(grep '^version' pack.toml | sed 's/version = "\(.*\)"/\1/')
+            fi
             echo "version=$VERSION" >> $GITHUB_OUTPUT
-            # Try to get changelog from release notes or commit message
             echo "changelog=Release $VERSION" >> $GITHUB_OUTPUT
           fi
 
@@ -49,14 +54,33 @@ jobs:
           sed -i 's/^version = .*/version = "${{ steps.version.outputs.version }}"/' pack.toml
           ./packwiz refresh
 
+      - name: Export to Modrinth (.mrpack) format
+        run: |
+          ./packwiz modrinth export -o Noahs-Server.mrpack
+
+      - name: Prepare deployment directory
+        run: |
+          mkdir -p deploy
+          # Copy packwiz files for auto-update support
+          cp pack.toml deploy/
+          cp index.toml deploy/
+          cp -r mods deploy/
+          # Copy the .mrpack file for Prism Launcher import
+          cp Noahs-Server.mrpack deploy/
+          # Copy resourcepacks if they exist
+          if [ -d "resourcepacks" ]; then
+            cp -r resourcepacks deploy/
+          fi
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
-          exclude_assets: '.git*,.github,packwiz.exe,packwiz.zip,*.mrpack,*.zip'
+          publish_dir: ./deploy
 
       - name: Notify website of new version
+        if: github.event_name == 'workflow_dispatch' || startsWith(github.ref, 'refs/tags/')
+        continue-on-error: true
         run: |
           curl -X POST "${{ secrets.WEBSITE_API_URL }}/api/modpack/new-version" \
             -H "Content-Type: application/json" \
