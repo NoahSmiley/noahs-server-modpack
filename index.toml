@@ -196,11 +196,6 @@ hash = "6c6b69bf2bca3b3a8420688391124aa90d24e235b98ee01097f03f0fbf22d9cb"
 metafile = true
 
 [[files]]
-file = "mods/terralith.pw.toml"
-hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
-metafile = true
-
-[[files]]
 file = "mods/txnilib.pw.toml"
 hash = "7d47e3d8bee4711ab37491e5e91bad186b6606ba560ab8a1dec753c157cf1151"
 metafile = true
