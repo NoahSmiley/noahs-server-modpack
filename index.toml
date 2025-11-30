@@ -358,7 +358,3 @@ metafile = true
 file = "mods/yacl.pw.toml"
 hash = "8ffa4ba1466882a5abef6c6d220824f1ce4e228771f854f19e4fceb80598723c"
 metafile = true
-
-[[files]]
-file = "validate.ps1"
-hash = "01d63d001e9768f0e0451528adc4bb46a6607b95ea0b3ab1c3b2860c755ff99e"
