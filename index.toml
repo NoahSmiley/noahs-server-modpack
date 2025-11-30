@@ -125,8 +125,18 @@ hash = "ecc30c21290ac87a732085e16add94a392d4e5dfc0bae5f353975eea51a38a84"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "4898b9beb1b7cf7df38346b02d9756c10e09408b6344e3295fe7177b25549f14"
+metafile = true
+
+[[files]]
 file = "mods/entity-pin-cushions.pw.toml"
 hash = "98fc45453fdac86d361d4d16736983534d93f1c4006bcece0502070d259126d4"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "1824d1cc8f4f82a88972b9220dc6806c05968d651fb38f6bfe69e4d8215fc0ed"
 metafile = true
 
 [[files]]
@@ -167,6 +177,11 @@ metafile = true
 [[files]]
 file = "mods/harvest.pw.toml"
 hash = "078860bac1f307372efd36c5e861dd4fac7a387f138f09989f8fff0ad12b7904"
+metafile = true
+
+[[files]]
+file = "mods/hold-my-items.pw.toml"
+hash = "d82a9b3f9ba777fcfa871322fcc168745c28f9a8ea18032e4ed6f0a3d3d9c32a"
 metafile = true
 
 [[files]]
@@ -362,4 +377,14 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "8ffa4ba1466882a5abef6c6d220824f1ce4e228771f854f19e4fceb80598723c"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations-extensions.pw.toml"
+hash = "c35f41d09504478ac9d85d9a939460511c50676f5ea3a19537a2ac204281506e"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "42b8a59616b3ed15a02e55466dff7ab400d481a8730949ce0168a927b71b91fb"
 metafile = true
