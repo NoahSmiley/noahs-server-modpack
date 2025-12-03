@@ -350,11 +350,6 @@ hash = "4ea85fa7d750bf5a167fe9652f2ac896d12ab068dacb8b04539e316ba5b74042"
 metafile = true
 
 [[files]]
-file = "mods/tacz-refabricated.pw.toml"
-hash = "f04dbe69b8aad16429acd4c690f4f93b6f46aba5372056907cd27107d48bfaca"
-metafile = true
-
-[[files]]
 file = "mods/tectonic.pw.toml"
 hash = "6c6b69bf2bca3b3a8420688391124aa90d24e235b98ee01097f03f0fbf22d9cb"
 metafile = true
