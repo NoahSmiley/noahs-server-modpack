@@ -200,6 +200,11 @@ hash = "67073e76c80987fe6193fdb50f4db0991467ba3fa265829a132ca878e5261c0a"
 metafile = true
 
 [[files]]
+file = "mods/improperui.pw.toml"
+hash = "c32c0ba13682b8cb45f1d783e4f7bba9a1b47af65fc1a6f63b04c2f0445d4b78"
+metafile = true
+
+[[files]]
 file = "mods/itemswapper.pw.toml"
 hash = "49e1724a64b87c64bdd52002882cc9376057dca5e5e92e72737de3707bbcfe16"
 metafile = true
