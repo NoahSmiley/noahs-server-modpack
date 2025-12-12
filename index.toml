@@ -11,12 +11,12 @@ metafile = true
 
 [[files]]
 file = "mods/analog.pw.toml"
-hash = "8b09ba2d5e2dd3a2397ade36026de0def89319f4f38b527c046f391a6ddf73ee"
+hash = "2e0ca02a5241172d0ba8200d97001f08d112ac5d8e2ea93f8e86e6f4027703cf"
 metafile = true
 
 [[files]]
 file = "mods/analog-1.2.2+1.21.jar"
-hash = "52e854b48ec149bf61a0d66886a044ee59f0f05b8279190339a5c2e330d633de"
+hash = "5ef546cefc17af75830b9ff2385586b609a197f3166e965e002b8442e094703d"
 
 [[files]]
 file = "mods/appleskin.pw.toml"
