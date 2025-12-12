@@ -11,11 +11,11 @@ metafile = true
 
 [[files]]
 file = "mods/analog-1.2.2+1.21.jar"
-hash = "ba930b0c5947f229c692ee12c41a6b5626dd8799293a8f03a81f1b609dba2067"
+hash = "b969cd878e4a5e1ca228e67507af0ad42d93742c8bc32c57168402e4d5184878"
 
 [[files]]
 file = "mods/analog.pw.toml"
-hash = "9e4f9cd3b83b3667a689692869a304844607d2c58c2b2c3501a847a8ffb41c0a"
+hash = "38967437e5b7fc1b003731f9cd1d16bc020a6ee5845ee2139f43f133c9fcde2e"
 metafile = true
 
 [[files]]
