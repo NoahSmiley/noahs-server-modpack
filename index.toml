@@ -566,6 +566,10 @@ hash = "4bcf74d4569def60ca031d565350952c2edcc420f26278bc7997654a77b6fb4d"
 metafile = true
 
 [[files]]
+file = "mods && cp cUsersnoahsDesktopservermodpack-ultramodsserious-player-animations.pw.toml cUsersnoahsDesktopservermodpackmods"
+hash = "18b585d0f14984c5548eb9df3d56a5758482615c65db8260ef6038a3c8ee7acc"
+
+[[files]]
 file = "resourcepacks/fresh-animations-extensions.pw.toml"
 hash = "c35f41d09504478ac9d85d9a939460511c50676f5ea3a19537a2ac204281506e"
 metafile = true
