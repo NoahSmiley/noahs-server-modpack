@@ -1,6 +1,6 @@
 # Noah's Server Modpack
 
-**Minecraft 1.21.1 | Fabric**
+**Minecraft 1.20.1 | Forge**
 
 This modpack auto-updates every time you launch the game!
 
@@ -23,8 +23,8 @@ Save it somewhere you can find it (like your Downloads folder).
 3. Select **Custom** on the left sidebar
 4. Set these options:
    - **Name:** `Noahs Server`
-   - **Version:** `1.21.1`
-   - **Mod Loader:** `Fabric` (use version `0.18.1` or latest)
+   - **Version:** `1.20.1`
+   - **Mod Loader:** `Forge` (use version `47.3.0` or latest)
 5. Click **OK**
 
 ---
