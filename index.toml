@@ -245,11 +245,6 @@ hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
 metafile = true
 
 [[files]]
-file = "mods/ferritecore.pw.toml"
-hash = "3b026ffc2963974cc8252d83e91587b5ac357ab2b59eb1e77e74e82eb3d635d6"
-metafile = true
-
-[[files]]
 file = "mods/fog.pw.toml"
 hash = "ac79fe9adef4d23b4c4e5b88e4ba6cbbb4c28814b21b406073815ba9d9d7eb18"
 metafile = true
